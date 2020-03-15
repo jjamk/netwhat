@@ -19,5 +19,5 @@ int Bsearch(int ar[], int len, int target)
 								first = mid + 1;
 				}
 		}
-		return (-1); 
+		return (-1); //target이 없을 때 
 }
