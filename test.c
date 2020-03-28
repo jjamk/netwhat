@@ -108,9 +108,3 @@ void insert(List *plist, LData *pdata);
 int first(List *plist, LData *pdata);
 int next(List *plist, LData *pdata);
 
-LData remove(List *plist);
-int count(List *plist);
-
-void SetSortRule(List *plist, int (*comp)(Ldata d1, LData d2));
-
-#endif
